@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.heromain {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0 350px;
+    ;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+.hmaintext {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:900;
+}
+.menu, .hsecontext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
