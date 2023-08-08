@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
 }
 /* HEROMAIN SECTIOn */
 .heromain {
@@ -24,11 +28,13 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    
 }
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 500;
+    
 }
 
 /* Hero  section*/
@@ -67,43 +73,41 @@ button {
 }
 
 /* INFO SECTION */
-
 .info {
-    padding: 0 450px;
-    text-align: center;
-    margin: 50px 0;
     display: flex;
     flex-direction: column;
-    
-    
+    align-items: center;
+    margin: 70px 0;
 }
 .iheader {
-    margin-bottom: 50px;
     font-size: 36px;
-    color: #1f2937;
     font-weight: 900;
+    margin-bottom: 30px;
     
-}
-/* Random Info Section */
 
-.icontainer {
+}
+
+/* Random Info Section */
+.card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
+    text-align: center;
+}
+.card {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .box {
-    border: #1f2937 3px solid;
-    border-radius: 35px;
-    height: 200px;
-    max-width: 200px;
-    background-color: #f7f7f7;
-    margin-bottom: 10px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
 }
-.rinfo {
-    flex-direction: column;
-    display: flex;
-    
-}
-
 /* Quote Section */
 
 .qoute {
