@@ -98,3 +98,30 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Quote Section */
+
+.qoute {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 400px;
+    margin: 50px 0;
+}
+.qholder{
+    display: flex;
+    flex-direction: column;
+}
+.qtext {
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    
+}
+.qcredit {
+    text-align: right;
+    align-self: flex-end;
+    padding-right: 100px;
+    font-size: 24px;
+    font-weight: 800;
+
+}
