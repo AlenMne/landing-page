@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* HEROMAIN SECTIOn */
 .heromain {
     background-color: #1f2937;
     padding: 0 400px;
 }
-/* Header */
+/* Header section*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ a {
     font-weight: 500;
 }
 
-/* Hero */
+/* Hero  section*/
 .hero {
     display: flex;
     justify-content: space-between;
@@ -64,4 +64,37 @@ button {
     border-style: none;
     border-radius: 10px;
     background-color: #3882f6;
+}
+
+/* INFO SECTION */
+
+.info {
+    padding: 0 450px;
+    text-align: center;
+    margin: 50px 0;
+}
+.iheader {
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+/* Random Info Section */
+
+.icontainer {
+    display: flex;
+    gap: 40px;
+    
+}
+.box {
+    border: #1f2937 3px solid;
+    border-radius: 35px;
+    height: 200px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+}
+.rinfo {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
 }
