@@ -125,3 +125,28 @@ button {
     font-weight: 800;
 
 }
+/* Call to Action */
+.ctamain {
+    padding: 0 400px;
+}
+.ctaholder {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 50px 50px;
+    border-radius: 20px;
+    color: #f9faf8;
+    margin: 80px 0;
+    flex-wrap: wrap;
+}
+
+button {
+    border: #f9faf8 3px solid;
+    font-weight: 600;
+    margin: 10px;
+}
+.ctabold{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
